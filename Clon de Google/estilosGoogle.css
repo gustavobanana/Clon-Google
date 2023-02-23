@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins&display=swap');
+* {
+    background-color: rgb(27, 156, 81);
+}
+body {
+    margin: none;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    color: whitesmoke;
+    height: 92px;
+    width: 272px;
+    font-size: 50px;
+    border-top: 150px;
+    font-family: 'Gentium Book Plus', serif;
+}
+#input {   
+    display: inline;
+    align-content: center;
+    background-color: white;
+    border: none;
+    border-radius: var(--ntp-realbox-border-radius);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    height: 50%;
+    outline: ridge; border-radius: 2rem;
+    padding-inline-end: 28px;
+    padding-inline-start: 52px;
+    width: 500px;
+}
+#input :hover{
+    background-color: red;
+}
+button :hover {
+    background-color: red;
+}
+button {
+    background-color: gray;
+    margin: auto;
+    border-radius: 2rem;
+}
+.arriba {
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    justify-content: flex-end    
+}
+#gmail {
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+}
